@@ -1,7 +1,7 @@
 # Roman numerals kata in C++
 
 [![CI](https://github.com/Coding-Cuddles/roman-numerals-cpp-kata/actions/workflows/main.yml/badge.svg)](https://github.com/Coding-Cuddles/roman-numerals-cpp-kata/actions/workflows/main.yml)
-[![Replit](https://replit.com/badge?caption=Try%20with%20Replit&variant=small)](https://replit.com/new/github/Coding-Cuddles/roman-numerals-cpp-kata)
+[![Replit](https://img.shields.io/badge/Try%20with%20Replit-black?logo=replit)](https://replit.com/new/github/Coding-Cuddles/roman-numerals-cpp-kata)
 
 ## Overview
 
