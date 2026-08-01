@@ -90,8 +90,8 @@ copy or downloads the pinned release when needed.
 
 ## Set up the kata
 
-You can also import the project into [Replit](https://replit.com), which
-provides the required dependencies.
+The tracked Replit configuration is retained. The local setup below is the
+validated development path.
 
 1. Clone the repository:
 
