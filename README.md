@@ -53,7 +53,7 @@ In this phase, the objective is to develop a function `from_roman(number: str)
 -> int` that performs the reverse conversion, transforming Roman numerals into
 their corresponding Arabic digits.
 
-## Guiding Principles
+## Guiding principles
 
 * If you don't know an existing algorithm, follow the principles of strict
   Test-Driven Development (TDD) to derive one.
@@ -63,7 +63,7 @@ their corresponding Arabic digits.
   on TDD, especially if you don't already know one.
 * If you do know an algorithm, evaluate if it can be implemented using strict
   TDD principles.
- 
+
 This is a C++17 kata using GoogleTest. Setup is complete when CTest reports
 `100% tests passed`.
 
@@ -71,17 +71,17 @@ This is a C++17 kata using GoogleTest. Setup is complete when CTest reports
 
 Required:
 
-- [Git](https://git-scm.com/downloads)
-- A compiler with C++17 support. Choose one:
-  - [GCC](https://gcc.gnu.org/) 10+ on Linux
-  - [LLVM Clang](https://llvm.org/) 14+ on Linux
-  - [Apple Clang](https://developer.apple.com/xcode/) 17+ on macOS
-  - [MSVC](https://visualstudio.microsoft.com/) 2022 on Windows
-- [CMake 3.24 or later](https://cmake.org)
+* [Git](https://git-scm.com/downloads)
+* A compiler with C++17 support. Choose one:
+  * [GCC](https://gcc.gnu.org/) 10+ on Linux
+  * [LLVM Clang](https://llvm.org/) 14+ on Linux
+  * [Apple Clang](https://developer.apple.com/xcode/) 17+ on macOS
+  * [MSVC](https://visualstudio.microsoft.com/) 2022 on Windows
+* [CMake 3.24 or later](https://cmake.org)
 
 Optional:
 
-- [GNU Make](https://www.gnu.org/software/make/), for shorter commands. Every
+* [GNU Make](https://www.gnu.org/software/make/), for shorter commands. Every
   required task also has direct CMake and CTest commands. Make may be
   unavailable on Windows.
 
