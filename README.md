@@ -5,6 +5,9 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Replit](https://img.shields.io/badge/Try%20with%20Replit-black?logo=replit)](https://replit.com/new/github/Coding-Cuddles/roman-numerals-cpp-kata)
 
+Implement conversions between Arabic numerals and Roman numerals in C++17 with
+GoogleTest. Setup is complete when the existing starter test passes.
+
 ## Overview
 
 This kata complements [Clean Code: Advanced TDD, Ep. 19](https://cleancoders.com/episode/clean-code-episode-19-p1).
@@ -14,9 +17,8 @@ test-driven development.
 
 ## Instructions
 
-Roman numerals are a numeral system that was used by ancient Rome. Numbers in
-this system use letters from the Latin alphabet. Currently, it uses seven
-symbols:
+Roman numerals are a numeral system used in ancient Rome. Numbers in this
+system use seven letters from the Latin alphabet:
 
 | Symbol | Value |
 |:-------|-------|
@@ -28,8 +30,8 @@ symbols:
 | D      | 500   |
 | M      | 1000  |
 
-Instead of writing the same letter four times, a rule for subtraction is used:
-the letter is written once, then the next largest Roman numeral is written.
+Instead of writing the same letter four times, a subtraction rule is used: the
+letter is written once, followed by the next larger Roman numeral.
 For example, 4 is not written as IIII, but instead as IV, because IV is V (5)
 minus I (1).
 
@@ -37,21 +39,20 @@ In general, the values for 5, 50, and 500 are not subtracted.
 
 ### Exercise 1
 
-The task at hand entails crafting a function `to_roman(number: int) -> str` to
-convert regular Arabic numbers into Roman numerals, such as:
+Implement `std::string to_roman(int number)` to convert Arabic numerals into
+Roman numerals, such as:
 
 * 4 → IV
 * 7 → VII
 * 9 → IX
 
-The lowest number you can write in Roman Numerals is number I (1). And the
-largest numeral is MMMCMXCIX (3999).
+The smallest supported number is 1 (`I`), and the largest is 3999
+(`MMMCMXCIX`).
 
 ### Exercise 2
 
-In this phase, the objective is to develop a function `from_roman(number: str)
--> int` that performs the reverse conversion, transforming Roman numerals into
-their corresponding Arabic digits.
+Implement `int from_roman(const std::string& number)` to perform the reverse
+conversion from Roman numerals to Arabic numerals.
 
 ## Guiding principles
 
@@ -63,9 +64,6 @@ their corresponding Arabic digits.
   on TDD, especially if you don't already know one.
 * If you do know an algorithm, evaluate if it can be implemented using strict
   TDD principles.
-
-This is a C++17 kata using GoogleTest. Setup is complete when CTest reports
-`100% tests passed`.
 
 ## Prerequisites
 
